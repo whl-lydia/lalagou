@@ -1,0 +1,80 @@
+.content{
+	width: 100%;
+	height: 590px;
+	overflow: hidden;
+	background: url(../images/bg.gif);
+}
+.info{
+	max-width: 500px;
+	margin:20px auto;
+}
+.info li{
+	height: 30px;
+	background: #fff;
+	margin: 20px 0;
+	line-height: 30px;
+	position: relative;
+}
+.users,.pwd{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.users span,.pwd span{
+	display: inline-block;
+    width: 139px;
+    text-align: right;
+    background: #5CB4E2;
+    color: white;
+    height: 30px;
+    font-size: 14px;
+    padding-right: 11px;
+}
+.pwd span{
+	background: #EBD03B !important;
+}
+.users input,.pwd input{
+	border: none;
+    padding-left: 15px;
+    outline:none;
+}
+.login,.pwdl{
+	position: absolute;
+    top: 5px;
+    right: 2px;	
+}
+.login img,.pwdl img{
+	width: 70%;
+}
+.denglu{
+	text-align: center;
+    margin-top: 50px !important;
+    background: #FF5400 !important;
+}
+.denglu a{
+	color: white;
+	font-size: 14px;
+}
+.zhuce{
+    background: none !important;
+    text-align: right !important;
+}
+.zhuce a{
+   display: block;
+   text-decoration:underline;
+}
+.tz{
+	width: 100%;
+	height: 45px;
+	background: #fff;
+}
+.tzcon{
+	max-width: 500px;
+	height: 45px;
+	margin: auto;
+	line-height: 45px;
+	text-align: center;
+}
+.tzcon a{
+	color: #ff5400;
+}

@@ -1,0 +1,129 @@
+.content{
+	width: 100%;
+	overflow: hidden;
+	background: url(../images/bg.gif);
+}
+.tilte{
+	max-width: 500px;
+	height: 60px;
+	margin: 10px auto; 
+	background: url(../images/tour_bg.png);
+	background-repeat: repeat-x;
+	background-position: center;
+}
+.tupain{
+	max-width:500px;
+	margin: 10px auto;
+}
+.tu{
+	width: 100%;
+}
+.tu img{
+	width: 100%;
+}
+.lists{
+	max-width: 500px;
+	margin: auto;
+	overflow: hidden;
+	border:1px solid #dfe0df;
+	background: #fff;
+	margin: 5px auto;
+}
+.lists li{
+	width: 99%;
+	height: 30px;
+	line-height:30px;
+	text-align: left;
+	border:1px solid #dfe0df;
+	position: relative;
+	margin: 5px auto;
+}
+
+.cp1 a{
+	font-size: 16px;
+	color: #4FC4F6;
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: -2px;
+}
+.tb1{
+	background: url(../images/i0.png) no-repeat;
+}
+.tb2{
+	background: url(../images/sp0.png) no-repeat;
+}
+.tb3{
+	background: url(../images/k0.png) no-repeat;
+}
+.tb4{
+	background: url(../images/pbg.png) no-repeat;
+}
+.tb1,.tb2,.tb3,.tb4{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-size:100% 100%;
+	background-position: center;
+	position: absolute;
+	top: 5px;
+	left: 2px;
+}
+.cp2{
+	width: 99%;
+	display: none;
+	transition:1s;
+}
+.cp2_2 div{
+	margin: 2px 2px;
+}
+.cp2_left{
+	width: 20%;
+	float: left;
+	height: 25px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 14px;
+	border: 1px solid #dfe0df;.
+}
+.cp2_right{
+	width: 76%;
+	float: right;
+	height: 25px;
+	font-size: 14px;
+	line-height: 20px;
+	border: 1px solid #dfe0df;.
+}
+/* 产品亮点 */
+.cp2_1{
+	width: 99%;
+	border: 1px solid #dfe0df;
+	margin:1px;
+}
+.tese{
+	font-size: 14px;
+	padding-left: 15px;
+}
+/* 开班价格 */
+.cp2 table{
+    position: relative;
+	width: 100%;
+    border: 1px solid #dee0df;
+    margin: 2px;
+}
+.left{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.right{
+	position: absolute;
+	right: -25px;
+	top: 0;
+}
+.center{
+	text-align:center;
+}
+.tr1 td img{
+	width: 12%;
+}
+

@@ -1,0 +1,38 @@
+.content{
+	widows: 100%;
+	height: 590px;
+	background: url(../images/bg.gif);
+}
+.tj{
+	max-width: 500px;
+	height: 345px;
+	margin:auto;
+	position: relative;
+}
+.tj img{
+	width: 100%;
+}
+.tj a{
+	color: #454545;
+}
+.tj p{
+	height: 40px;
+	font-size: 16px;
+	font-family: '黑体';
+	text-align: center;
+}
+.tz{
+	width: 100%;
+	height: 45px;
+	background: #fff;
+}
+.tzcon{
+	max-width: 500px;
+	height: 45px;
+	margin: auto;
+	line-height: 45px;
+	text-align: center;
+}
+.tzcon a{
+	color: #ff5400;
+}

@@ -1,0 +1,163 @@
+html,body,h1,h2,h3,h4,h5,h6,div,p,ul,li,ol{
+	padding: 0;
+	margin:0;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	max-width: 500px;
+	margin: auto;
+	height: 30px;
+	border-top:1px solid gray;
+	background: #fff;
+	border-bottom: 1px solid gray;
+	position: relative;
+}
+.header img{
+	height:30px;
+}
+.logo{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.wenzi{
+	line-height: 30px;
+    text-align: center; 
+}
+.wenzi a{
+	 color:#FF5400;
+}
+.user{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.bg{
+	width: 100%;
+	height: 100%;
+	background: url(../images/bg.gif);
+}
+.zixuan{
+	max-width: 500px;
+	height: 470px;
+	border: 1px solid #B1C1DD;
+	background: #F1F1F1;
+}
+.box{
+	width: 96%;
+	height: 91%;
+	margin:10px 0 0 10px;
+	border: 1px solid #B1C1DD;
+	background: #fff;
+}
+.title{
+	width: 98%;
+    height: auto;
+    line-height: 20px;
+    background: #fff;
+    font-size: 13px;
+    padding-left: 10px;
+    border-bottom: 1px solid #B1C1DD;
+}
+.title a{
+	color: #4D83B9;
+}
+.zi{
+	font-size: 12px;
+    padding-left: 10px;
+    color: blue;
+
+}
+.line{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin: 10px 0;
+	position: relative;
+	margin-left: 10px;
+}
+.line_left{
+	width: 25%;
+	float: left;
+	height: 34px;
+	text-align: center;
+	background: #DFF3FF;
+}
+.line_left span{
+	font-size: 14px;
+	color: #454545;
+}
+.line_left font{
+	color: red;
+}
+.inp1{
+	float: left;
+	width: 37%;
+	border:2px solid #DFF3FF;
+}
+.inp1 input{
+    height: 24px;
+    width: 180px;
+    border: none;
+    outline: none;
+}
+.inp2{
+	float: left;
+	width:30%;
+	font-size: 14px;
+}
+.inp1_1{
+	float: left;
+	width: 65%;
+	border:2px solid #DFF3FF;
+}
+.inp1_1 input{
+    height: 24px;
+    width: 211px;
+    border: none;
+    outline: none;
+
+}
+.inp2_2{
+	position: absolute;
+	top: 0;
+	left: 125px;
+	font-size: 14px;
+}
+.txt{
+	max-width: 500px;
+	margin-left: 10px;
+	margin: auto;
+}
+.tel{
+    float: left;
+    width: 79%;
+    height: 140px;
+    margin-bottom: 40px;
+    border: 2px solid #DFF3FF;
+    margin-left: 10px;
+}
+.tel textarea{
+	width: 98%;
+	height: 98%;
+	border: none;
+}
+.img{
+	float: left;
+	width: 18%;
+	height: 144px;
+	position: relative;
+}
+.img img{
+	position: absolute;
+    bottom: 0;
+    right: 4px;
+    width: 80px;
+    height: 80px;
+}
